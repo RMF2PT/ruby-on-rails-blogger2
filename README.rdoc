@@ -1,6 +1,6 @@
 == README
 
-Following the [Jumpstart Labs](http://tutorials.jumpstartlab.com/projects/blogger.html) tutorial for a simple blog system as part of the [The Odin Project](http://www.theodinproject.com/web-development-101/ruby-on-rails?ref=lnav)
+Following the [Jumpstart Labs] (http://tutorials.jumpstartlab.com/projects/blogger.html) tutorial for a simple blog system as part of the [The Odin Project] (http://www.theodinproject.com/web-development-101/ruby-on-rails?ref=lnav)
 
 Things this project covers:
 

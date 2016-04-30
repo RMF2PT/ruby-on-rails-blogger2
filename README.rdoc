@@ -1,28 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Following the [Jumpstart Labs](http://tutorials.jumpstartlab.com/projects/blogger.html) tutorial for a simple blog system as part of the [The Odin Project](http://www.theodinproject.com/web-development-101/ruby-on-rails?ref=lnav)
 
-Things you may want to cover:
+Things this project covers:
 
-* Ruby version
+* Blogger web application built with Ruby on Rails
 
-* System dependencies
+* Models, Views, and Controllers (MVC)
 
-* Configuration
+* Data Structures & Relationships
 
-* Database creation
+* Routing
 
-* Database initialization
+* Migrations
 
-* How to run the test suite
+* Views with forms, partials, and helpers
 
-* Services (job queues, cache servers, search engines, etc.)
+* RESTful design
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Adding gems for extra features

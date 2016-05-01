@@ -23,8 +23,10 @@
     <% end %>
     |
     <%= link_to "All articles", articles_path %>
-    |
-    <%= link_to "All users", authors_path %>
+    <% if logged_in? %>
+      |
+      <%= link_to "All users", authors_path %>
+    <% end %>
   </h6>
 </body>
 </html>

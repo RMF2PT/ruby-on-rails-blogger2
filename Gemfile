@@ -35,6 +35,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Paperclip for easy file attachment
 gem 'paperclip'
 
+# Use Sorcery for authentication
+gem 'sorcery'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

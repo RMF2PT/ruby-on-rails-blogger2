@@ -8,8 +8,22 @@
 </head>
 <body>
 
-  <p class="flash"><%= flash.notice %></p>
+  <p class="flash">
+    <%= flash.notice %>
+  </p>
   <%= yield %>
-
+  <hr/>
+  <h6>
+    <% if logged_in? %>
+      <%= "Logged in as #{current_user.email}" %>
+      <%= link_to "(logout)", logout_path %>
+    <% else %>
+      <%= link_to "(login)", login_path %>
+    <% end %>
+    |
+    <%= link_to "All articles", articles_path %>
+    |
+    <%= link_to "All users", authors_path %>
+  </h6>
 </body>
 </html>
